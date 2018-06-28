@@ -13,7 +13,11 @@ app.use(express.static(__dirname + '/public'));
 
 
 app.use((req,res,next) => {
+<<<<<<< HEAD
   next();
+=======
+
+>>>>>>> 190a0c6630a383923efd9da3b181e6fc2a36b1c4
 });
 
 hbs.registerHelper('getCurrentYear', () =>{
