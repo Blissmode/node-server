@@ -22,13 +22,13 @@ hbs.registerHelper('getCurrentYear', () =>{
 });
 
 hbs.registerHelper('screamIt', (text) =>{
-  return text.toUpperCase;
+  return text.toUpperCase();
 });
 
 app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome to my website',
+    welcomeMessage: 'Welcome to my website created with express!',
   });
 });
 
